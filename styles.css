@@ -9,16 +9,17 @@
 @media screen and (max-width: 320px) {
   header {
     width: 100%;
+    background-color: transparent;
     display: flex;
-    background-color: #f16e55;
-    height: 4rem;
+    height: 6rem;
     align-items: center;
   }
   header h1 {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
     margin-left: 2rem;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
   }
   header nav {
     display: flex;
@@ -32,24 +33,59 @@
     display: none;
   }
   header nav i {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-size: 2.5rem;
     margin-right: 2rem;
+  }
+  #sobremi {
+    margin-top: 2.5rem;
+  }
+  #sobremi #meencanta {
+    display: none;
+  }
+  #sobremi #actualmente {
+    display: none;
+  }
+  #sobremi h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1.6rem;
+  }
+  #sobremi h1 b {
+    color: rgb(27, 172, 234);
+  }
+  #sobremi p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    margin-left: 1.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: left;
+  }
+  #sobremi p b {
+    font-weight: 500;
+    color: rgb(27, 172, 234);
+    font-style: italic;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 375px) {
   header {
     width: 100%;
+    background-color: transparent;
     display: flex;
-    background-color: #f16e55;
-    height: 4rem;
+    height: 6rem;
     align-items: center;
   }
   header h1 {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
-    margin-left: 2.5rem;
-    font-size: 1.8rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
   }
   header nav {
     display: flex;
@@ -63,179 +99,441 @@
     display: none;
   }
   header nav i {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-size: 2.5rem;
-    margin-right: 2.5rem;
+    margin-right: 2rem;
+  }
+  #sobremi {
+    margin-top: 1.6rem;
+  }
+  #sobremi #meencanta {
+    display: none;
+  }
+  #sobremi #actualmente {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobremi #actualmente a {
+    color: rgb(27, 172, 234);
+    padding-top: 1rem;
+  }
+  #sobremi h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1.6rem;
+  }
+  #sobremi h1 b {
+    color: rgb(27, 172, 234);
+  }
+  #sobremi p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    margin-left: 1.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: left;
+  }
+  #sobremi p b {
+    font-weight: 500;
+    color: rgb(27, 172, 234);
+    font-style: italic;
   }
 }
 @media screen and (min-width: 376px) and (max-width: 425px) {
   header {
     width: 100%;
+    background-color: transparent;
     display: flex;
-    background-color: #f16e55;
-    height: 4rem;
+    height: 6rem;
     align-items: center;
   }
   header h1 {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
-    margin-left: 2.5rem;
-    font-size: 1.8rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
   }
   header nav {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    justify-content: right;
     width: 100%;
+    justify-content: right;
   }
   header nav a {
     display: none;
   }
   header nav i {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-size: 2.5rem;
-    margin-right: 2.5rem;
+    margin-right: 2rem;
+  }
+  #sobremi {
+    margin-top: 1.8rem;
+  }
+  #sobremi #meencanta {
+    display: none;
+  }
+  #sobremi #actualmente {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobremi #actualmente a {
+    color: rgb(27, 172, 234);
+    padding-top: 1rem;
+  }
+  #sobremi h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.7rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1.6rem;
+  }
+  #sobremi h1 b {
+    color: rgb(27, 172, 234);
+  }
+  #sobremi p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    margin-left: 1.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: left;
+  }
+  #sobremi p b {
+    font-weight: 500;
+    color: rgb(27, 172, 234);
+    font-style: italic;
   }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
   header {
     width: 100%;
+    background-color: transparent;
     display: flex;
-    background-color: #f16e55;
     height: 6rem;
     align-items: center;
   }
   header h1 {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
-    margin-left: 2.5rem;
-    font-size: 2.2rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
   }
   header nav {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
     width: 100%;
+    justify-content: right;
+    padding-right: 2rem;
   }
   header nav a {
     display: flex;
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
   }
   header nav i {
     display: none;
+  }
+  #sobremi {
+    margin-top: 2.5rem;
+  }
+  #sobremi #meencanta {
+    display: flex;
+  }
+  #sobremi #meencanta b {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+  #sobremi #actualmente {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobremi #actualmente a {
+    color: rgb(27, 172, 234);
+    padding-top: 1rem;
+  }
+  #sobremi h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.9rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1.6rem;
+  }
+  #sobremi h1 b {
+    color: rgb(27, 172, 234);
+  }
+  #sobremi p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.95rem;
+    padding-top: 1.3rem;
+    margin-left: 1.6rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+  #sobremi p b {
+    font-weight: 500;
+    color: rgb(27, 172, 234);
+    font-style: italic;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   header {
     width: 100%;
+    background-color: transparent;
     display: flex;
-    background-color: #f16e55;
     height: 6rem;
     align-items: center;
   }
   header h1 {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
-    margin-left: 4rem;
-    font-size: 2.5rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
   }
   header nav {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
     width: 100%;
+    justify-content: right;
+    padding-right: 2rem;
   }
   header nav a {
     display: flex;
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
   }
   header nav i {
     display: none;
+  }
+  #sobremi {
+    margin-top: 1.5rem;
+  }
+  #sobremi #meencanta {
+    display: flex;
+  }
+  #sobremi #meencanta b {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+  #sobremi #actualmente {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobremi #actualmente a {
+    color: rgb(27, 172, 234);
+    padding-top: 1rem;
+  }
+  #sobremi h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.4rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1.6rem;
+  }
+  #sobremi h1 b {
+    color: rgb(27, 172, 234);
+  }
+  #sobremi p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    padding-top: 1.3rem;
+    margin-left: 1.6rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+  #sobremi p b {
+    font-weight: 500;
+    color: rgb(27, 172, 234);
+    font-style: italic;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   header {
     width: 100%;
+    background-color: transparent;
     display: flex;
-    background-color: #f16e55;
-    height: 5rem;
+    height: 6rem;
     align-items: center;
   }
   header h1 {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
-    margin-left: 6rem;
-    font-size: 2rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
   }
   header nav {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
     width: 100%;
+    justify-content: right;
+    padding-right: 2rem;
   }
   header nav a {
     display: flex;
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
   }
   header nav i {
     display: none;
+  }
+  .linea {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(53, 63, 66);
+    height: 0.005rem;
+    opacity: 0.3;
+  }
+  #sobremi {
+    margin-top: 7rem;
+  }
+  #sobremi #meencanta b {
+    padding-left: 0.2rem;
+    padding-right: 0.4rem;
+  }
+  #sobremi #actualmente {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobremi #actualmente a {
+    color: rgb(27, 172, 234);
+    padding-top: 1rem;
+  }
+  #sobremi h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.1rem;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin-left: 1.6rem;
+  }
+  #sobremi h1 b {
+    color: rgb(27, 172, 234);
+  }
+  #sobremi p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1.3rem;
+    margin-left: 1.6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+  }
+  #sobremi p b {
+    font-weight: 500;
+    color: rgb(27, 172, 234);
+    font-style: italic;
   }
 }
 @media screen and (min-width: 1441px) {
   header {
     width: 100%;
+    background-color: transparent;
     display: flex;
-    background-color: #f16e55;
-    height: 12rem;
+    height: 6rem;
     align-items: center;
   }
   header h1 {
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
-    margin-left: 10rem;
-    font-size: 5rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
   }
   header nav {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
     width: 100%;
+    justify-content: right;
+    padding-right: 2rem;
   }
   header nav a {
     display: flex;
-    color: #fbf7f7;
+    color: rgb(53, 63, 66);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    font-size: 3.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
   }
   header nav i {
     display: none;
+  }
+  #sobremi {
+    margin-top: 5rem;
+  }
+  #sobremi #meencanta b {
+    padding-left: 0.2rem;
+    padding-right: 0.4rem;
+  }
+  #sobremi #actualmente {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobremi #actualmente a {
+    color: rgb(27, 172, 234);
+    padding-top: 1rem;
+  }
+  #sobremi h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.1rem;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin-left: 1.6rem;
+  }
+  #sobremi h1 b {
+    color: rgb(27, 172, 234);
+  }
+  #sobremi p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    padding-top: 1.3rem;
+    margin-left: 1.6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+  }
+  #sobremi p b {
+    font-weight: 500;
+    color: rgb(27, 172, 234);
+    font-style: italic;
   }
 }
 header nav a {
