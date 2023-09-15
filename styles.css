@@ -1,0 +1,250 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    width: 100%;
+    display: flex;
+    background-color: #f16e55;
+    height: 4rem;
+    align-items: center;
+  }
+  header h1 {
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: right;
+  }
+  header nav a {
+    display: none;
+  }
+  header nav i {
+    color: #fbf7f7;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  header {
+    width: 100%;
+    display: flex;
+    background-color: #f16e55;
+    height: 4rem;
+    align-items: center;
+  }
+  header h1 {
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 2.5rem;
+    font-size: 1.8rem;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: right;
+  }
+  header nav a {
+    display: none;
+  }
+  header nav i {
+    color: #fbf7f7;
+    font-size: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  header {
+    width: 100%;
+    display: flex;
+    background-color: #f16e55;
+    height: 4rem;
+    align-items: center;
+  }
+  header h1 {
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 2.5rem;
+    font-size: 1.8rem;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right;
+    width: 100%;
+  }
+  header nav a {
+    display: none;
+  }
+  header nav i {
+    color: #fbf7f7;
+    font-size: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    display: flex;
+    background-color: #f16e55;
+    height: 6rem;
+    align-items: center;
+  }
+  header h1 {
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 2.5rem;
+    font-size: 2.2rem;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 100%;
+  }
+  header nav a {
+    display: flex;
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  header nav i {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    width: 100%;
+    display: flex;
+    background-color: #f16e55;
+    height: 6rem;
+    align-items: center;
+  }
+  header h1 {
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 4rem;
+    font-size: 2.5rem;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 100%;
+  }
+  header nav a {
+    display: flex;
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.4rem;
+  }
+  header nav i {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  header {
+    width: 100%;
+    display: flex;
+    background-color: #f16e55;
+    height: 5rem;
+    align-items: center;
+  }
+  header h1 {
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 6rem;
+    font-size: 2rem;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 100%;
+  }
+  header nav a {
+    display: flex;
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+  }
+  header nav i {
+    display: none;
+  }
+}
+@media screen and (min-width: 1441px) {
+  header {
+    width: 100%;
+    display: flex;
+    background-color: #f16e55;
+    height: 12rem;
+    align-items: center;
+  }
+  header h1 {
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 10rem;
+    font-size: 5rem;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 100%;
+  }
+  header nav a {
+    display: flex;
+    color: #fbf7f7;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 3.3rem;
+  }
+  header nav i {
+    display: none;
+  }
+}
+header nav a {
+  transition: all ease-in-out 200ms;
+}
+header nav a:hover {
+  cursor: pointer;
+  transition: all ease-in-out 200ms;
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=styles.css.map */
