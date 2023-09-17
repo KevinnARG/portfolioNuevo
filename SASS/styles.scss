@@ -50,7 +50,7 @@ $font: 'Work Sans', sans-serif;
 
     #sobremi {
 
-        margin-top: 5rem;
+        margin-top: 3rem;
 
         #meencanta {
             display: none;
@@ -89,6 +89,107 @@ $font: 'Work Sans', sans-serif;
             }
         }
 
+    }
+
+    #tecnologias {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
+
+        .tecnologias-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+            align-content: center; 
+            width: 100%;
+            margin-top: 2rem;        
+        }
+
+        .tecnologia {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            width: 75%;
+            border-radius: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 2px 2px 10px rgb(221, 209, 209);
+            margin-top: 1rem;
+
+            img {
+                width: 4.5rem;
+                display: flex;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 3rem;
+            }
+
+            #sass_logo {
+                filter: brightness(0);
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                padding-top: 1rem;
+                text-align: left;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                padding-bottom: 3rem;
+                color: rgb(86, 78, 78);
+                font-weight: 500;
+            }
+
+            h4 {
+                font-family: $font;
+                display: flex;
+                justify-content: center;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    #proyectos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
     }
 }
 
@@ -131,7 +232,7 @@ $font: 'Work Sans', sans-serif;
 
     #sobremi {
 
-        margin-top: 6rem;
+        margin-top: 2rem;
 
         #meencanta {
             display: none;
@@ -177,6 +278,107 @@ $font: 'Work Sans', sans-serif;
         }
 
     }
+
+    #tecnologias {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
+
+        .tecnologias-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+            align-content: center; 
+            width: 100%;
+            margin-top: 2rem;        
+        }
+
+        .tecnologia {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            width: 75%;
+            border-radius: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 2px 2px 10px rgb(221, 209, 209);
+            margin-top: 1rem;
+
+            img {
+                width: 4.5rem;
+                display: flex;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 3rem;
+            }
+
+            #sass_logo {
+                filter: brightness(0);
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                padding-top: 1rem;
+                text-align: left;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                padding-bottom: 3rem;
+                color: rgb(86, 78, 78);
+                font-weight: 500;
+            }
+
+            h4 {
+                font-family: $font;
+                display: flex;
+                justify-content: center;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    #proyectos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
+    }
     
 }
 
@@ -219,7 +421,7 @@ $font: 'Work Sans', sans-serif;
 
     #sobremi {
 
-        margin-top: 9rem;
+        margin-top: 2.2rem;
 
         #meencanta {
             display: none;
@@ -266,6 +468,106 @@ $font: 'Work Sans', sans-serif;
 
     }
     
+    #tecnologias {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
+
+        .tecnologias-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+            align-content: center; 
+            width: 100%;
+            margin-top: 2rem;        
+        }
+
+        .tecnologia {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            width: 75%;
+            border-radius: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 2px 2px 10px rgb(221, 209, 209);
+            margin-top: 1rem;
+
+            img {
+                width: 4.5rem;
+                display: flex;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 3rem;
+            }
+
+            #sass_logo {
+                filter: brightness(0);
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                padding-top: 1rem;
+                text-align: left;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                padding-bottom: 3rem;
+                color: rgb(86, 78, 78);
+                font-weight: 500;
+            }
+
+            h4 {
+                font-family: $font;
+                display: flex;
+                justify-content: center;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    #proyectos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) { // Telefonos Grandes
@@ -312,7 +614,7 @@ $font: 'Work Sans', sans-serif;
 
     #sobremi {
 
-        margin-top: 8rem;
+        margin-top: 4rem;
 
         #meencanta {
             display: flex;
@@ -363,6 +665,110 @@ $font: 'Work Sans', sans-serif;
         }
 
     }
+        
+    #tecnologias {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .tecnologias-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+            align-content: center; 
+            width: 100%;
+            margin-top: 2rem;        
+        }
+
+        .tecnologia {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            width: 75%;
+            border-radius: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 2px 2px 10px rgb(221, 209, 209);
+            margin-top: 1rem;
+
+            img {
+                width: 4.5rem;
+                display: flex;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 3rem;
+            }
+
+            #sass_logo {
+                filter: brightness(0);
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                padding-top: 1rem;
+                text-align: left;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                padding-bottom: 3rem;
+                color: rgb(86, 78, 78);
+                font-weight: 500;
+            }
+
+            h4 {
+                font-family: $font;
+                display: flex;
+                justify-content: center;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    #proyectos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
+    }
     
 }
 
@@ -410,7 +816,7 @@ $font: 'Work Sans', sans-serif;
 
     #sobremi {
 
-        margin-top: 8rem;
+        margin-top: 4rem;
 
         #meencanta {
             display: flex;
@@ -462,6 +868,110 @@ $font: 'Work Sans', sans-serif;
 
     }
     
+    #tecnologias {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 1.2rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .tecnologias-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+            align-content: center; 
+            width: 100%;
+            margin-top: 2rem;        
+        }
+
+        .tecnologia {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            width: 75%;
+            border-radius: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 2px 2px 10px rgb(221, 209, 209);
+            margin-top: 1rem;
+
+            img {
+                width: 4.5rem;
+                display: flex;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 3rem;
+            }
+
+            #sass_logo {
+                filter: brightness(0);
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                padding-top: 1rem;
+                text-align: center;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                font-size: 1rem;
+                padding-bottom: 3rem;
+                color: rgb(86, 78, 78);
+                font-weight: 500;
+            }
+
+            h4 {
+                font-family: $font;
+                display: flex;
+                justify-content: center;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    #proyectos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) { // PCs
@@ -517,7 +1027,7 @@ $font: 'Work Sans', sans-serif;
 
     #sobremi {
 
-        margin-top: 9rem;
+        margin-top: 8rem;
 
         #meencanta {
             
@@ -566,6 +1076,119 @@ $font: 'Work Sans', sans-serif;
             }
         }
 
+    }
+
+    #tecnologias {
+        display: flex;
+        flex-direction: column;
+        margin-top: 14rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 1.2rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .tecnologias-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+            align-content: center; 
+            width: 100%;
+            margin-top: 2rem;        
+        }
+
+        .tecnologia {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            width: 75%;
+            border-radius: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 2px 2px 10px rgb(221, 209, 209);
+            margin-top: 1rem;
+
+            img {
+                width: 4.5rem;
+                display: flex;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 3rem;
+            }
+
+            #sass_logo {
+                filter: brightness(0);
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                padding-top: 1rem;
+                text-align: center;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                font-size: 1rem;
+                padding-bottom: 3rem;
+                color: rgb(86, 78, 78);
+                font-weight: 500;
+            }
+
+            h4 {
+                font-family: $font;
+                display: flex;
+                justify-content: center;
+                padding-top: 1rem;
+            }
+
+            transition: all ease-in-out 250ms;
+            
+            &:hover {
+                cursor: pointer;
+                transition: all ease-in-out 250ms;
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    #proyectos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: $font;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            margin-top: 4rem;
+        }
+
+        p {
+            font-family: $font;
+            font-size: 0.9rem;
+            padding-top: 1rem;
+            margin-left: 1.6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            text-align: left;
+        }
     }
     
 }
