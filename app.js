@@ -56,30 +56,41 @@ document.querySelector("#enviar").addEventListener("click", (e) => {
 
 })
 
-
-
 // DARK MODE
+
+let darkmode = true
+
 
 const toggleSwitch = document.getElementById('theme-switch');
 const currentTheme = localStorage.getItem('theme');
+const icon = document.getElementById("icon")
+
 
 if (currentTheme) {
   document.documentElement.setAttribute('data-theme', currentTheme);
-
+  
   if (currentTheme === 'dark') {
-    toggleSwitch.checked = true;
+    darkmode = true
+    icon.classList.remove("bi-sun-fill")
+    icon.classList.add("bi-moon-fill")
   }
 }
 
-function switchTheme(e) {
-  if (e.target.checked) {
+function switchTheme() {
+  if (darkmode == false) {
     document.documentElement.setAttribute('data-theme', 'dark');
     localStorage.setItem('theme', 'dark');
+    darkmode = true;
+    icon.classList.remove("bi-sun-fill")
+    icon.classList.add("bi-moon-fill")
   }
   else {
     document.documentElement.setAttribute('data-theme', 'light');
     localStorage.setItem('theme', 'light');
+    darkmode = false;
+    icon.classList.remove("bi-moon-fill")
+    icon.classList.add("bi-sun-fill")
   }
 }
 
-toggleSwitch.addEventListener('change', switchTheme, false);
+toggleSwitch.addEventListener('click', switchTheme);
