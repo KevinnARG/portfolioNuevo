@@ -1,5 +1,23 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+:root {
+  --color-principal: rgb(34, 32, 32);
+  --color-secundario: rgb(27, 172, 234);
+  --bg-color: rgb(255, 255, 255);
+  --box-shadow: 2px 2px 10px rgb(221, 209, 209);
+}
+
+[data-theme=dark] {
+  --color-principal: rgb(205, 222, 226);
+  --color-secundario: rgb(27, 172, 234);
+  --bg-color: rgb(15, 14, 14);
+  --box-shadow: 2px 2px 10px rgb(35, 34, 34);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +34,7 @@
     align-items: center;
   }
   header h1 {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     margin-left: 2rem;
     font-size: 1.1rem;
@@ -34,7 +52,7 @@
     display: none;
   }
   header nav i {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-size: 2.5rem;
     margin-right: 2rem;
   }
@@ -261,7 +279,7 @@
     margin-bottom: 0.4rem;
     border: 1px solid rgb(224, 217, 217);
     border-radius: 0.5rem;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   #contacto .der form #mensaje {
     width: 80%;
@@ -276,7 +294,7 @@
     padding-top: 1rem;
     padding-right: 1rem;
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   #contacto .der form #mensaje::placeholder {
     font-family: "Work Sans", sans-serif;
@@ -313,7 +331,7 @@
   }
   footer .arriba a {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     text-decoration: none;
   }
   footer .medio {
@@ -322,13 +340,13 @@
     justify-content: space-around;
   }
   footer .medio a {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     display: flex;
     text-decoration: none;
   }
   footer .medio i {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   footer .abajo {
     margin-top: 2rem;
@@ -337,7 +355,7 @@
   }
   footer .abajo h5 {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-weight: 500;
     font-size: 0.94rem;
   }
@@ -351,7 +369,7 @@
     align-items: center;
   }
   header h1 {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     margin-left: 2rem;
     font-size: 1.1rem;
@@ -369,7 +387,7 @@
     display: none;
   }
   header nav i {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-size: 2.5rem;
     margin-right: 2rem;
   }
@@ -614,7 +632,7 @@
     padding-top: 1rem;
     padding-right: 1rem;
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   #contacto .der form #mensaje::placeholder {
     font-family: "Work Sans", sans-serif;
@@ -651,7 +669,7 @@
   }
   footer .arriba a {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     text-decoration: none;
   }
   footer .medio {
@@ -660,13 +678,13 @@
     justify-content: space-around;
   }
   footer .medio a {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     display: flex;
     text-decoration: none;
   }
   footer .medio i {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   footer .abajo {
     margin-top: 2rem;
@@ -675,7 +693,7 @@
   }
   footer .abajo h5 {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-weight: 500;
     font-size: 0.94rem;
   }
@@ -689,7 +707,7 @@
     align-items: center;
   }
   header h1 {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     margin-left: 2rem;
     font-size: 1.1rem;
@@ -707,7 +725,7 @@
     display: none;
   }
   header nav i {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-size: 2.5rem;
     margin-right: 2rem;
   }
@@ -952,7 +970,7 @@
     padding-top: 1rem;
     padding-right: 1rem;
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   #contacto .der form #mensaje::placeholder {
     font-family: "Work Sans", sans-serif;
@@ -989,7 +1007,7 @@
   }
   footer .arriba a {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     text-decoration: none;
   }
   footer .medio {
@@ -998,13 +1016,13 @@
     justify-content: space-around;
   }
   footer .medio a {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     display: flex;
     text-decoration: none;
   }
   footer .medio i {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   footer .abajo {
     margin-top: 2rem;
@@ -1013,7 +1031,7 @@
   }
   footer .abajo h5 {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-weight: 500;
     font-size: 0.94rem;
   }
@@ -1027,7 +1045,7 @@
     align-items: center;
   }
   header h1 {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     margin-left: 2rem;
     font-size: 1.1rem;
@@ -1044,7 +1062,7 @@
   }
   header nav a {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
     margin-left: 1rem;
@@ -1303,7 +1321,7 @@
     padding-top: 1rem;
     padding-right: 1rem;
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   #contacto .der form #mensaje::placeholder {
     font-family: "Work Sans", sans-serif;
@@ -1340,7 +1358,7 @@
   }
   footer .arriba a {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     text-decoration: none;
   }
   footer .medio {
@@ -1349,13 +1367,13 @@
     justify-content: space-around;
   }
   footer .medio a {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     display: flex;
     text-decoration: none;
   }
   footer .medio i {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   footer .abajo {
     margin-top: 3rem;
@@ -1364,7 +1382,7 @@
   }
   footer .abajo h5 {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-weight: 500;
     font-size: 0.94rem;
   }
@@ -1378,7 +1396,7 @@
     align-items: center;
   }
   header h1 {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     margin-left: 2rem;
     font-size: 1.1rem;
@@ -1395,7 +1413,7 @@
   }
   header nav a {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
     margin-left: 1rem;
@@ -1655,7 +1673,7 @@
     padding-top: 1rem;
     padding-right: 1rem;
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   #contacto .der form #mensaje::placeholder {
     font-family: "Work Sans", sans-serif;
@@ -1692,7 +1710,7 @@
   }
   footer .arriba a {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     text-decoration: none;
   }
   footer .medio {
@@ -1701,13 +1719,13 @@
     justify-content: space-around;
   }
   footer .medio a {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     display: flex;
     text-decoration: none;
   }
   footer .medio i {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   footer .abajo {
     margin-top: 4rem;
@@ -1716,7 +1734,7 @@
   }
   footer .abajo h5 {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-weight: 500;
     font-size: 0.94rem;
   }
@@ -1730,7 +1748,7 @@
     align-items: center;
   }
   header h1 {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     margin-left: 2rem;
     font-size: 1.1rem;
@@ -1747,7 +1765,7 @@
   }
   header nav a {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
     margin-left: 1rem;
@@ -1761,7 +1779,7 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(53, 63, 66);
+    background-color: var(--color-principal);
     height: 0.005rem;
     opacity: 0.3;
   }
@@ -1835,12 +1853,12 @@
   #tecnologias .tecnologia {
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(20, 20, 20);
     width: 75%;
     border-radius: 0.5rem;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    box-shadow: 2px 2px 10px rgb(35, 34, 34);
     margin-top: 1rem;
     transition: all ease-in-out 250ms;
   }
@@ -2022,7 +2040,7 @@
     padding-top: 1rem;
     padding-right: 1rem;
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   #contacto .der form #mensaje::placeholder {
     font-family: "Work Sans", sans-serif;
@@ -2059,7 +2077,7 @@
   }
   footer .arriba a {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     text-decoration: none;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -2070,13 +2088,13 @@
     justify-content: center;
   }
   footer .medio a {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     display: flex;
     text-decoration: none;
   }
   footer .medio i {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-size: 1.4rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -2088,7 +2106,7 @@
   }
   footer .abajo h5 {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-weight: 500;
     font-size: 0.94rem;
   }
@@ -2102,7 +2120,7 @@
     align-items: center;
   }
   header h1 {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     margin-left: 2rem;
     font-size: 1.1rem;
@@ -2119,7 +2137,7 @@
   }
   header nav a {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-family: "Work Sans", sans-serif;
     text-decoration: none;
     margin-left: 1rem;
@@ -2390,7 +2408,7 @@
     padding-top: 1rem;
     padding-right: 1rem;
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
   }
   #contacto .der form #mensaje::placeholder {
     font-family: "Work Sans", sans-serif;
@@ -2427,7 +2445,7 @@
   }
   footer .arriba a {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     text-decoration: none;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -2438,13 +2456,13 @@
     justify-content: center;
   }
   footer .medio a {
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     display: flex;
     text-decoration: none;
   }
   footer .medio i {
     display: flex;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-size: 1.4rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -2456,7 +2474,7 @@
   }
   footer .abajo h5 {
     font-family: "Work Sans", sans-serif;
-    color: rgb(53, 63, 66);
+    color: var(--color-principal);
     font-weight: 500;
     font-size: 0.94rem;
   }
@@ -2470,12 +2488,24 @@ header nav a:hover {
   transform: scale(1.05);
 }
 
+#proyectos .proyectos-container .proyecto {
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+#proyectos .proyectos-container .proyecto .links-container a {
+  color: var(--color-principal);
+}
 #proyectos .proyectos-container .proyecto .links-container h6 {
   color: rgb(27, 172, 234);
 }
 
 #contacto .der form {
+  background-color: var(--bg-color);
   margin-top: 5rem;
+  box-shadow: var(--box-shadow);
+}
+#contacto .der form input {
+  background-color: var(--bg-color);
 }
 #contacto .der form input:focus {
   outline: 3px solid rgb(27, 172, 234);
@@ -2484,11 +2514,12 @@ header nav a:hover {
   width: 80%;
   height: 3rem;
   margin-left: auto;
+  background-color: var(--bg-color);
   margin-right: auto;
   border: 1px solid rgb(224, 217, 217);
   border-radius: 0.5rem;
   resize: none;
-  color: rgb(53, 63, 66);
+  color: var(--color-principal);
 }
 #contacto .der form textarea::placeholder {
   height: 2.6rem;
@@ -2507,6 +2538,22 @@ header nav a:hover {
   background-color: rgb(30, 150, 201);
   cursor: pointer;
   transition: all ease-in-out 250ms;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-principal);
+}
+
+p {
+  color: var(--color-principal);
+}
+
+#tecnologias .tecnologias-container .tecnologia {
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+#tecnologias .tecnologias-container .tecnologia h4 {
+  color: var(--color-principal);
 }
 
 /*# sourceMappingURL=styles.css.map */
