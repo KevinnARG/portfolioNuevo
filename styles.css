@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 320px) {
@@ -78,18 +79,18 @@
   }
   #tecnologias h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #tecnologias p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    justify-content: center;
   }
   #tecnologias .tecnologias-container {
     display: grid;
@@ -147,18 +148,198 @@
   }
   #proyectos h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #proyectos p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  #proyectos .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #proyectos .proyecto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    margin-top: 1rem;
+  }
+  #proyectos .proyecto img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  #proyectos .proyecto p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    color: rgb(86, 78, 78);
+    font-weight: 500;
+  }
+  #proyectos .proyecto h4 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  #proyectos .proyecto .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1.5rem;
+  }
+  #proyectos .proyecto .links-container a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: underline;
+  }
+  #proyectos .proyecto .links-container h6 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.75rem;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  #contacto .izq h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #contacto .izq p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  #contacto .der form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #contacto .der form input {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    color: rgb(53, 63, 66);
+  }
+  #contacto .der form #mensaje {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    resize: vertical;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+  }
+  #contacto .der form #mensaje::placeholder {
+    font-family: "Work Sans", sans-serif;
+  }
+  #contacto .der form button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.6rem;
+    background-color: rgb(27, 172, 234);
+    border: none;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    text-align: left;
+    margin-top: 2rem;
+    border: 1px solid rgb(224, 217, 217);
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    margin-top: 8rem;
+  }
+  footer .arriba {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .arriba a {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    text-decoration: none;
+  }
+  footer .medio {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .medio a {
+    color: rgb(53, 63, 66);
+    display: flex;
+    text-decoration: none;
+  }
+  footer .medio i {
+    display: flex;
+    color: rgb(53, 63, 66);
+  }
+  footer .abajo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .abajo h5 {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    font-weight: 500;
+    font-size: 0.94rem;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -238,18 +419,17 @@
   }
   #tecnologias h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #tecnologias p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    text-align: left;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    text-align: center;
   }
   #tecnologias .tecnologias-container {
     display: grid;
@@ -307,18 +487,197 @@
   }
   #proyectos h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #proyectos p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  #proyectos .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #proyectos .proyecto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    margin-top: 1rem;
+  }
+  #proyectos .proyecto img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  #proyectos .proyecto p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    color: rgb(86, 78, 78);
+    font-weight: 500;
+  }
+  #proyectos .proyecto h4 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  #proyectos .proyecto .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1.5rem;
+  }
+  #proyectos .proyecto .links-container a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: underline;
+  }
+  #proyectos .proyecto .links-container h6 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.75rem;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  #contacto .izq h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #contacto .izq p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  #contacto .der form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #contacto .der form input {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+  }
+  #contacto .der form #mensaje {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    resize: vertical;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+  }
+  #contacto .der form #mensaje::placeholder {
+    font-family: "Work Sans", sans-serif;
+  }
+  #contacto .der form button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.6rem;
+    background-color: rgb(27, 172, 234);
+    border: none;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    text-align: left;
+    margin-top: 2rem;
+    border: 1px solid rgb(224, 217, 217);
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    margin-top: 8rem;
+  }
+  footer .arriba {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .arriba a {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    text-decoration: none;
+  }
+  footer .medio {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .medio a {
+    color: rgb(53, 63, 66);
+    display: flex;
+    text-decoration: none;
+  }
+  footer .medio i {
+    display: flex;
+    color: rgb(53, 63, 66);
+  }
+  footer .abajo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .abajo h5 {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    font-weight: 500;
+    font-size: 0.94rem;
   }
 }
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -398,18 +757,17 @@
   }
   #tecnologias h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #tecnologias p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
   }
   #tecnologias .tecnologias-container {
     display: grid;
@@ -467,18 +825,197 @@
   }
   #proyectos h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #proyectos p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  #proyectos .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #proyectos .proyecto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    margin-top: 1rem;
+  }
+  #proyectos .proyecto img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  #proyectos .proyecto p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    color: rgb(86, 78, 78);
+    font-weight: 500;
+  }
+  #proyectos .proyecto h4 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  #proyectos .proyecto .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1.5rem;
+  }
+  #proyectos .proyecto .links-container a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: underline;
+  }
+  #proyectos .proyecto .links-container h6 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.75rem;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  #contacto .izq h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #contacto .izq p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  #contacto .der form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #contacto .der form input {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+  }
+  #contacto .der form #mensaje {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    resize: vertical;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+  }
+  #contacto .der form #mensaje::placeholder {
+    font-family: "Work Sans", sans-serif;
+  }
+  #contacto .der form button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.6rem;
+    background-color: rgb(27, 172, 234);
+    border: none;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    text-align: left;
+    margin-top: 2rem;
+    border: 1px solid rgb(224, 217, 217);
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    margin-top: 8rem;
+  }
+  footer .arriba {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .arriba a {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    text-decoration: none;
+  }
+  footer .medio {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .medio a {
+    color: rgb(53, 63, 66);
+    display: flex;
+    text-decoration: none;
+  }
+  footer .medio i {
+    display: flex;
+    color: rgb(53, 63, 66);
+  }
+  footer .abajo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .abajo h5 {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    font-weight: 500;
+    font-size: 0.94rem;
   }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -639,18 +1176,197 @@
   }
   #proyectos h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #proyectos p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  #proyectos .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #proyectos .proyecto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    margin-top: 1rem;
+  }
+  #proyectos .proyecto img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  #proyectos .proyecto p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    color: rgb(86, 78, 78);
+    font-weight: 500;
+  }
+  #proyectos .proyecto h4 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  #proyectos .proyecto .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1.5rem;
+  }
+  #proyectos .proyecto .links-container a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: underline;
+  }
+  #proyectos .proyecto .links-container h6 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.75rem;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  #contacto .izq h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #contacto .izq p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  #contacto .der form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #contacto .der form input {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+  }
+  #contacto .der form #mensaje {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    resize: vertical;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+  }
+  #contacto .der form #mensaje::placeholder {
+    font-family: "Work Sans", sans-serif;
+  }
+  #contacto .der form button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.6rem;
+    background-color: rgb(27, 172, 234);
+    border: none;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    text-align: left;
+    margin-top: 2rem;
+    border: 1px solid rgb(224, 217, 217);
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    margin-top: 8rem;
+  }
+  footer .arriba {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .arriba a {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    text-decoration: none;
+  }
+  footer .medio {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .medio a {
+    color: rgb(53, 63, 66);
+    display: flex;
+    text-decoration: none;
+  }
+  footer .medio i {
+    display: flex;
+    color: rgb(53, 63, 66);
+  }
+  footer .abajo {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .abajo h5 {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    font-weight: 500;
+    font-size: 0.94rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -812,18 +1528,197 @@
   }
   #proyectos h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #proyectos p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  #proyectos .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #proyectos .proyecto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    margin-top: 1rem;
+  }
+  #proyectos .proyecto img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  #proyectos .proyecto p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    color: rgb(86, 78, 78);
+    font-weight: 500;
+  }
+  #proyectos .proyecto h4 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  #proyectos .proyecto .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1.5rem;
+  }
+  #proyectos .proyecto .links-container a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: underline;
+  }
+  #proyectos .proyecto .links-container h6 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.75rem;
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  #contacto .izq h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #contacto .izq p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  #contacto .der form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #contacto .der form input {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+  }
+  #contacto .der form #mensaje {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    resize: vertical;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+  }
+  #contacto .der form #mensaje::placeholder {
+    font-family: "Work Sans", sans-serif;
+  }
+  #contacto .der form button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.6rem;
+    background-color: rgb(27, 172, 234);
+    border: none;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    text-align: left;
+    margin-top: 2rem;
+    border: 1px solid rgb(224, 217, 217);
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    margin-top: 8rem;
+  }
+  footer .arriba {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .arriba a {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    text-decoration: none;
+  }
+  footer .medio {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .medio a {
+    color: rgb(53, 63, 66);
+    display: flex;
+    text-decoration: none;
+  }
+  footer .medio i {
+    display: flex;
+    color: rgb(53, 63, 66);
+  }
+  footer .abajo {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .abajo h5 {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    font-weight: 500;
+    font-size: 0.94rem;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -899,6 +1794,370 @@
   #sobremi p {
     font-family: "Work Sans", sans-serif;
     font-size: 0.9rem;
+    padding-top: 1.3rem;
+    margin-left: 1.6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+  }
+  #sobremi p b {
+    font-weight: 500;
+    color: rgb(27, 172, 234);
+    font-style: italic;
+  }
+  #tecnologias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14rem;
+  }
+  #tecnologias h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #tecnologias p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  #tecnologias .tecnologias-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #tecnologias .tecnologia {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    margin-top: 1rem;
+    transition: all ease-in-out 250ms;
+  }
+  #tecnologias .tecnologia img {
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+  }
+  #tecnologias .tecnologia #sass_logo {
+    filter: brightness(0);
+  }
+  #tecnologias .tecnologia p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 1rem;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    color: rgb(86, 78, 78);
+    font-weight: 500;
+  }
+  #tecnologias .tecnologia h4 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  #tecnologias .tecnologia:hover {
+    cursor: pointer;
+    transition: all ease-in-out 250ms;
+    transform: scale(1.05);
+  }
+  #proyectos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  #proyectos h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #proyectos p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  #proyectos .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #proyectos .proyecto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    margin-top: 1rem;
+    transition: all ease-in-out 250ms;
+  }
+  #proyectos .proyecto img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  #proyectos .proyecto p {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-left: 1.2rem;
+    font-size: 1rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    color: rgb(86, 78, 78);
+    font-weight: 500;
+  }
+  #proyectos .proyecto h4 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  #proyectos .proyecto .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1.5rem;
+  }
+  #proyectos .proyecto .links-container a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: underline;
+  }
+  #proyectos .proyecto .links-container h6 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.75rem;
+  }
+  #proyectos .proyecto:hover {
+    cursor: pointer;
+    transition: all ease-in-out 250ms;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px rgb(200, 171, 171);
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  #contacto .izq h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #contacto .izq p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+  }
+  #contacto .der form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #contacto .der form input {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    font-family: "Work Sans", sans-serif;
+  }
+  #contacto .der form #mensaje {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    resize: vertical;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+  }
+  #contacto .der form #mensaje::placeholder {
+    font-family: "Work Sans", sans-serif;
+  }
+  #contacto .der form button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.6rem;
+    background-color: rgb(27, 172, 234);
+    border: none;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 2rem;
+    border: 1px solid rgb(224, 217, 217);
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    margin-top: 8rem;
+  }
+  footer .arriba {
+    display: flex;
+    justify-content: center;
+  }
+  footer .arriba a {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    text-decoration: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  footer .medio {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .medio a {
+    color: rgb(53, 63, 66);
+    display: flex;
+    text-decoration: none;
+  }
+  footer .medio i {
+    display: flex;
+    color: rgb(53, 63, 66);
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  footer .abajo {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .abajo h5 {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    font-weight: 500;
+    font-size: 0.94rem;
+  }
+}
+@media screen and (min-width: 1441px) {
+  header {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    height: 6rem;
+    align-items: center;
+  }
+  header h1 {
+    color: rgb(53, 63, 66);
+    font-family: "Work Sans", sans-serif;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: right;
+    padding-right: 2rem;
+  }
+  header nav a {
+    display: flex;
+    color: rgb(53, 63, 66);
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  header nav i {
+    display: none;
+  }
+  #sobremi {
+    margin-top: 9rem;
+  }
+  #sobremi #meencanta b {
+    padding-left: 0.2rem;
+    padding-right: 0.4rem;
+  }
+  #sobremi #actualmente {
+    display: flex;
+    flex-direction: column;
+  }
+  #sobremi #actualmente a {
+    color: rgb(27, 172, 234);
+    padding-top: 1rem;
+  }
+  #sobremi h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.1rem;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin-left: 1.6rem;
+  }
+  #sobremi h1 b {
+    color: rgb(27, 172, 234);
+  }
+  #sobremi p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
     padding-top: 1.3rem;
     margin-left: 1.6rem;
     padding-left: 10rem;
@@ -996,95 +2255,210 @@
   }
   #proyectos h2 {
     font-family: "Work Sans", sans-serif;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
   }
   #proyectos p {
     font-family: "Work Sans", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     padding-top: 1rem;
-    margin-left: 1.6rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
   }
-}
-@media screen and (min-width: 1441px) {
-  header {
+  #proyectos .proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
     width: 100%;
-    background-color: transparent;
-    display: flex;
-    height: 6rem;
-    align-items: center;
+    margin-top: 2rem;
   }
-  header h1 {
-    color: rgb(53, 63, 66);
-    font-family: "Work Sans", sans-serif;
-    margin-left: 2rem;
-    font-size: 1.1rem;
-    text-wrap: nowrap;
-  }
-  header nav {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    justify-content: right;
-    padding-right: 2rem;
-  }
-  header nav a {
-    display: flex;
-    color: rgb(53, 63, 66);
-    font-family: "Work Sans", sans-serif;
-    text-decoration: none;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 1rem;
-  }
-  header nav i {
-    display: none;
-  }
-  #sobremi {
-    margin-top: 9rem;
-  }
-  #sobremi #meencanta b {
-    padding-left: 0.2rem;
-    padding-right: 0.4rem;
-  }
-  #sobremi #actualmente {
+  #proyectos .proyecto {
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    margin-top: 1rem;
+    transition: all ease-in-out 250ms;
   }
-  #sobremi #actualmente a {
-    color: rgb(27, 172, 234);
-    padding-top: 1rem;
+  #proyectos .proyecto img {
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
   }
-  #sobremi h1 {
-    font-family: "Work Sans", sans-serif;
-    font-size: 2.1rem;
+  #proyectos .proyecto p {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.5rem;
     text-align: center;
-    padding-left: 15rem;
-    padding-right: 15rem;
-    margin-left: 1.6rem;
-  }
-  #sobremi h1 b {
-    color: rgb(27, 172, 234);
-  }
-  #sobremi p {
-    font-family: "Work Sans", sans-serif;
+    padding-left: 1.2rem;
     font-size: 1rem;
-    padding-top: 1.3rem;
-    margin-left: 1.6rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+    color: rgb(86, 78, 78);
+    font-weight: 500;
+  }
+  #proyectos .proyecto h4 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  #proyectos .proyecto .links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1.5rem;
+  }
+  #proyectos .proyecto .links-container a {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: underline;
+  }
+  #proyectos .proyecto .links-container h6 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.75rem;
+  }
+  #proyectos .proyecto:hover {
+    cursor: pointer;
+    transition: all ease-in-out 250ms;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px rgb(200, 171, 171);
+  }
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  #contacto .izq h2 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  #contacto .izq p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     text-align: center;
   }
-  #sobremi p b {
+  #contacto .der form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgb(221, 209, 209);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #contacto .der form input {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+  }
+  #contacto .der form #mensaje {
+    width: 80%;
+    padding-left: 1rem;
+    height: 2.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(224, 217, 217);
+    border-radius: 0.5rem;
+    resize: vertical;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+  }
+  #contacto .der form #mensaje::placeholder {
+    font-family: "Work Sans", sans-serif;
+  }
+  #contacto .der form button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.6rem;
+    background-color: rgb(27, 172, 234);
+    border: none;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 2rem;
+    border: 1px solid rgb(224, 217, 217);
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    margin-top: 8rem;
+  }
+  footer .arriba {
+    display: flex;
+    justify-content: center;
+  }
+  footer .arriba a {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
+    text-decoration: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  footer .medio {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .medio a {
+    color: rgb(53, 63, 66);
+    display: flex;
+    text-decoration: none;
+  }
+  footer .medio i {
+    display: flex;
+    color: rgb(53, 63, 66);
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  footer .abajo {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  footer .abajo h5 {
+    font-family: "Work Sans", sans-serif;
+    color: rgb(53, 63, 66);
     font-weight: 500;
-    color: rgb(27, 172, 234);
-    font-style: italic;
+    font-size: 0.94rem;
   }
 }
 header nav a {
@@ -1094,6 +2468,45 @@ header nav a:hover {
   cursor: pointer;
   transition: all ease-in-out 200ms;
   transform: scale(1.05);
+}
+
+#proyectos .proyectos-container .proyecto .links-container h6 {
+  color: rgb(27, 172, 234);
+}
+
+#contacto .der form {
+  margin-top: 5rem;
+}
+#contacto .der form input:focus {
+  outline: 3px solid rgb(27, 172, 234);
+}
+#contacto .der form textarea {
+  width: 80%;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(224, 217, 217);
+  border-radius: 0.5rem;
+  resize: none;
+  color: rgb(53, 63, 66);
+}
+#contacto .der form textarea::placeholder {
+  height: 2.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  font-family: "Work Sans", sans-serif;
+}
+#contacto .der form textarea:focus {
+  outline: none;
+}
+#contacto .der form button {
+  transition: all ease-in-out 250ms;
+}
+#contacto .der form button:hover {
+  background-color: rgb(30, 150, 201);
+  cursor: pointer;
+  transition: all ease-in-out 250ms;
 }
 
 /*# sourceMappingURL=styles.css.map */
