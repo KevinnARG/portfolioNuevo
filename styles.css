@@ -57,6 +57,27 @@ body {
     font-size: 2.5rem;
     margin-right: 2rem;
   }
+  .menuResponsive {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-top: -24rem;
+    transition: all ease-in-out 200ms;
+  }
+  .menuResponsive a {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
   #sobremi {
     margin-top: 3rem;
   }
@@ -413,6 +434,27 @@ body {
     color: var(--color-principal);
     font-size: 2.5rem;
     margin-right: 2rem;
+  }
+  .menuResponsive {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-top: -24rem;
+    transition: all ease-in-out 200ms;
+  }
+  .menuResponsive a {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
   }
   #sobremi {
     margin-top: 2rem;
@@ -773,6 +815,27 @@ body {
     color: var(--color-principal);
     font-size: 2.5rem;
     margin-right: 2rem;
+  }
+  .menuResponsive {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-top: -24rem;
+    transition: all ease-in-out 200ms;
+  }
+  .menuResponsive a {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
   }
   #sobremi {
     margin-top: 2.2rem;
@@ -1138,6 +1201,27 @@ body {
   }
   header nav i {
     display: none;
+  }
+  .menuResponsive {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-top: -24rem;
+    transition: all ease-in-out 200ms;
+  }
+  .menuResponsive a {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
   }
   #sobremi {
     margin-top: 4rem;
@@ -1510,6 +1594,27 @@ body {
   header nav i {
     display: none;
   }
+  .menuResponsive {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-top: -24rem;
+    transition: all ease-in-out 200ms;
+  }
+  .menuResponsive a {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
   #sobremi {
     margin-top: 4rem;
   }
@@ -1881,6 +1986,27 @@ body {
   }
   header nav i {
     display: none;
+  }
+  .menuResponsive {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-top: -24rem;
+    transition: all ease-in-out 200ms;
+  }
+  .menuResponsive a {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
   }
   .linea {
     width: 95%;
@@ -2273,6 +2399,27 @@ body {
   }
   header nav i {
     display: none;
+  }
+  .menuResponsive {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    position: absolute;
+    background-color: white;
+    border-bottom: 1px solid black;
+    margin-top: -24rem;
+    transition: all ease-in-out 200ms;
+  }
+  .menuResponsive a {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+    color: black;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
   }
   #sobremi {
     margin-top: 15rem;
